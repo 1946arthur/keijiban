@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+}
+
+body {
+    font-family: "Hiragino Kaku Gothic Pron", "X10+", sans-serif;
+}
+
+/* ヘッダー　*/
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 300px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+}
+
+.logout_btm{
+    background-color: orangered;
+    color: white;
+    border: 0;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.menu {
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    line-height: 45px;
+    padding-left: 30px;
+    margin-right: 18px;
+}
+
+/* メイン　*/
+main {
+    display: flex;
+    padding:20px;
+}
+
+/* コンテンツ　*/
+.contents {
+    width: 67%;
+    font-size: 14px;
+}
+
+.contents_box1 {
+    border-left: 5px solid black;
+    border-bottom: 1px solid black;
+    width: 90%;
+}
+
+.contents_box2 {
+    width: 90%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    border: 3px solid #ebebeb;
+}
+
+.contents_box2 .inputform{
+    border-left: 5px solid orangered;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+.err_message {
+    margin: 10px 0 0 0;
+    font-size: 11px;
+    color: red;
+}
+
+.textform, textarea {
+    padding: 5px;
+    border: 1px solid #dfdfdf;
+    color: #999;
+    background: #fff;
+    font-size: 15px;
+}
+
+.contents_box2 .textform {
+    width: 50%;
+    height: 30px;
+}
+
+.contents_box2 textarea {
+    width: 80%;
+    height: 150px;
+}
+
+.input_btm{
+    background-color: gray;;
+    color: white;
+    border: 0;
+    width: 80px;
+    height: 30px;
+    font-size: 13px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.contents_box2 .title{
+    border-bottom: 1px solid black;
+}
+
+.contents_box2 .comments {
+    margin: 10px 5px;
+}
+
+.contents_box2 .post {
+    font-size: 10px;
+}
+
+/* サイドバー　*/
+.sidebar {
+    width: 30%;
+}
+
+.sidebar_box {
+    border-bottom: 1px dashed black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sidebar ul {
+    margin-bottom: 40px;
+}
+
+.sidebar li {
+    list-style: none;
+    font-size: 15px;
+    margin-left: 10px;
+    line-height: 2em;
+}
+
+/* フッター　*/
+footer {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    font-size: 14px;
+}
